@@ -9,6 +9,7 @@ header{
     position: relative;
     padding:8px 0 8px 15px;
 }
+/* centrare verticalmente riscontro sempre problemi  */
 .logo {
     font-size: 42px;
     position: absolute;
@@ -67,6 +68,10 @@ section h1::before{
     font-size: 20px;
 }
 
+/* problema bold,possibile colpa del font ? */
+.testo{
+    font-weight: bold;
+}
 h3 {
     display: inline-block;
 }
@@ -74,10 +79,12 @@ select{
     border:none;
     background-color: white;
 }
+
 span{
     border-radius: 10px;
 }
 
+/* ho preferito inserire il colore bg direttamente nell'html */
 .editorial ,.q1 ,.recruiting ,.mobile{
     color: white;
     display: inline-block;
