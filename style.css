@@ -40,21 +40,26 @@ main{
     border-radius: 5px;
   
 }
-.button1{
+
+ button{
     border-radius: 5px;
+    padding:3px;
+ }
+.button1{
+    
 
     color: white;
     border: none;
     background-color: rgb(120, 160, 247);
-    padding:3px;
+   
 }
 .button2{
-    border-radius: 5px;
+    
 
     color: rgb(224, 224, 224);
     border: 1px solid rgb(224, 224, 224);;
     background-color: rgb(255, 255, 255);
-    padding:3px;}
+}
 nav{
     margin-left: 40px;
     padding:10px 0 10px 10px;
