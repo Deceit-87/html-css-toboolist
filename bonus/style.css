@@ -19,7 +19,7 @@ header{
     margin: auto;
 }
 .risoluzione {
-   
+    
     width: 1123px;
     height: 705px;
     margin:auto;
@@ -61,22 +61,21 @@ nav{
 
     margin:10px 0 10px 40px;
 }
-section h1::before{
-    display: inline-block;
-    content: "\25BE";
-    margin: 10px 3px;
-    font-size: 20px;
-}
 
-/* problema bold,possibile colpa del font ? */
-.testo{
-    font-weight: bold;
-}
 
+
+
+summary{
+  margin-bottom:10px;
+ font-size:28px;
+  font-weight:bold;
+  
+}
 select{
     border:none;
     background-color: white;
 }
+
 
 
 /* ho preferito inserire il colore bg direttamente nell'html */
@@ -107,7 +106,7 @@ section {
     
 }
 span{
-    border-radius: 10px;
+   border-radius: 10px;
     margin-top: 10px;
 }
 
